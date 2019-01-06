@@ -1,0 +1,13 @@
+<?xml version="1.0" ?>
+<repositories version="1.0">
+    <repo priority="50" quality="experimental" status="unofficial">
+    <name>maryjaneinchain</name>
+    <description>Fred Fucks' gentoo overlay</description>
+    <homepage>https://gitlab.com/MaryJaneInChain/portage-overlay</homepage>
+    <owner>
+        <email>maryjaneinchain@gmail.com</email>
+    </owner>
+    <source type="git">git@gitlab.com:MaryJaneInChain/portage-overlay.git</source>
+    </repo>
+</repositories>
+
