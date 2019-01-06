@@ -7,7 +7,7 @@
     <owner>
         <email>maryjaneinchain@gmail.com</email>
     </owner>
-    <source type="git">git@gitlab.com:MaryJaneInChain/portage-overlay.git</source>
+    <source type="git">https://gitlab.com/MaryJaneInChain/portage-overlay.git</source>
     </repo>
 </repositories>
 
