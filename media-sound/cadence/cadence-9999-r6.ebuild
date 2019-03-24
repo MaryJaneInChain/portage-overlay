@@ -16,7 +16,7 @@ SLOT="0"
 IUSE="-pulseaudio a2jmidid ladish opengl"
 
 RDEPEND="${PYTHON_DEPS}
-	virtual/jack
+	virtual/jack:0
 	dev-python/PyQt5[dbus,gui,opengl?,svg,widgets,${PYTHON_USEDEP}]
 	dev-python/dbus-python[${PYTHON_USEDEP}]
 	a2jmidid? ( media-sound/a2jmidid[dbus] )
