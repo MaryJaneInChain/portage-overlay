@@ -12,7 +12,7 @@ SRC_URI="${SRC_BASE}/electronic-wechat-linux-x64-${PV}.zip -> ${P}-amd64.zip"
 
 LICENSE="MIT"
 SLOT=0
-KEYWORDS="~amd64"
+KEYWORDS="amd64"
 IUSE=""
 RESTRICT="mirror strip"
 
