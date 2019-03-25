@@ -8,7 +8,8 @@ inherit git-r3 python-single-r1 gnome2-utils
 
 DESCRIPTION="Collection of tools useful for audio production"
 HOMEPAGE="http://kxstudio.linuxaudio.org/Applications:Cadence"
-EGIT_REPO_URI="https://github.com/falkTX/Cadence.git"
+SRC_BASE="https://github.com/falkTX/Cadence/archive/"
+SRC_URI="${SRC_BASE}/v${PV}.tar.gz -> ${P}-amd64.tar.gz"
 KEYWORDS="~amd64"
 LICENSE="GPL-2"
 SLOT="0"
