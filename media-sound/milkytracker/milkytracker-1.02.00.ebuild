@@ -22,8 +22,6 @@ RDEPEND="
 	jack? ( virtual/jack )"
 DEPEND="${RDEPEND}"
 
-PATCHES=( "${FILESDIR}"/${PN}-1.0.0-docdir.patch )
-
 S="${WORKDIR}/MilkyTracker-${PV}"
 
 src_configure() {
