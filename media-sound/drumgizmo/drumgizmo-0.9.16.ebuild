@@ -24,3 +24,8 @@ RDEPEND="virtual/jack
 	>=media-libs/libpng-1.2
 	dev-libs/expat"
 DEPEND="${RDEPEND}"
+
+src_configure()
+{
+	econf --enable-lv2
+}
